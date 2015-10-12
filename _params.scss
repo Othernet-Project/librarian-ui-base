@@ -91,6 +91,8 @@ $o-button-hover-face-shading: $o-button-hover-face-color darken($o-button-hover-
 // Forms
 $o-form-help-icon: help-circle !default;
 $o-form-help-text-color: $o-friendly !default;
+$o-form-error-icon: alert !default;
+$o-form-error-text-color: $o-critical !default;
 
 // Modal window
 $o-modal-overlay-color: transparentize($o-base, 0.2) !default;
