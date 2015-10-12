@@ -17,6 +17,7 @@ $o-negative-base: #fff !default;                    // white
 $o-accent: #089bd2 !default;                        // blue
 $o-critical: #cc3737 !default;                      // red
 $o-warning: #efa417 !default;                       // orange
+$o-friendly: #57880e !default;                      // deep greeen
 $o-material: #eee !default;                         // light grey
 $o-dark-material: #ddd !default;                    // light grey
 $o-foreground-material: white !default;             // white (d'oh!)
@@ -86,6 +87,10 @@ $o-button-horizontal-spacing: 0.4rem !default;
 $o-button-hover-text-color: $o-negative-base !default;
 $o-button-hover-face-color: $o-accent !default;
 $o-button-hover-face-shading: $o-button-hover-face-color darken($o-button-hover-face-color, 10);
+
+// Forms
+$o-form-help-icon: help-circle !default;
+$o-form-help-text-color: $o-friendly !default;
 
 // Modal window
 $o-modal-overlay-color: transparentize($o-base, 0.2) !default;
