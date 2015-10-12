@@ -28,6 +28,8 @@ $o-base-text-color: $o-base !default;
 $o-clickable-target-color: #fafafa !default;
 $o-clickable-target-shading: $o-clickable-target-color darken($o-clickable-target-color, 10) !default;
 $o-disabled: $o-outline !default;
+$o-thin-overlay-material: transparentize($o-foreground-material, 0.25) !default;
+$o-thin-overlay-shadow: 0 0 3px transparentize(black, 0.9) !default;
 
 // Styling
 $o-widget-border: 1px solid $o-outline !default;
