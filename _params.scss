@@ -112,7 +112,7 @@ $o-pulldown-menubar-hbar-activator-icon-color: $o-pulldown-menubar-text-color !d
 $o-pulldown-menubar-hbar-activator-icon-size: 180% !default;
 $o-pulldown-menubar-hbar-activator-closed-icon: "expand-down" !default;
 $o-pulldown-menubar-hbar-activator-open-icon: "expand-up" !default;
-$o-pulldown-menubar-hbar-activator-icon-top-offset: -3px !default;
+$o-pulldown-menubar-hbar-activator-icon-top-offset: -1px !default;
 $o-pulldown-menubar-hbar-use-logo: yes !default;
 $o-pulldown-menubar-hbar-logo: logo !default;
 $o-pulldown-menubar-menu-background: $o-accent !default;
@@ -140,7 +140,7 @@ $o-statusbar-hbar-activator-icon-top-offset: 0.2rem !default;
 $o-contextbar-text-color: $o-base-text-color !default;
 $o-contextbar-height: 100% !default;
 $o-contextbar-menu-icon-width: $o-clickable-target-size * 1.5 !default;
-$o-contextbar-menu-icon-top-offset: 0.8rem !default;
+$o-contextbar-menu-icon-top-offset: 1.1rem !default;
 $o-contextbar-menu-icon-size: 220%;
 $o-contextbar-menu-highlight-color: transparent !default;
 $o-contextbar-menu-highlight-text-color: $o-accent !default;
