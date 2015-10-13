@@ -36,16 +36,6 @@ $o-thin-overlay-shadow: 0 0 3px transparentize(black, 0.9) !default;
 $o-widget-border: 1px solid $o-outline !default;
 $o-separator-border: 1px solid $o-dark-material !default;
 
-// Icons
-//
-// Available icons can be seen here:
-// https://cdn.materialdesignicons.com/1.2.65/
-//
-$mdi-font-path:        "/static/font" !default;
-$mdi-font-size-base:   1.7rem !default;
-$mdi-css-prefix:       icon !default;
-$mdi-version:          "1.2.64" !default;
-
 // Geometry
 $o-clickable-target-size: 3rem !default;
 $o-clickable-target-corner-radius: 0.3rem;
@@ -120,8 +110,8 @@ $o-pulldown-menubar-hbar-activator-highlight-color: $o-accent !default;
 $o-pulldown-menubar-hbar-activator-highlight-text-color: $o-negative-base !default;
 $o-pulldown-menubar-hbar-activator-icon-color: $o-pulldown-menubar-text-color !default;
 $o-pulldown-menubar-hbar-activator-icon-size: 180% !default;
-$o-pulldown-menubar-hbar-activator-closed-icon: "chevron-down" !default;
-$o-pulldown-menubar-hbar-activator-open-icon: "chevron-up" !default;
+$o-pulldown-menubar-hbar-activator-closed-icon: "expand-down" !default;
+$o-pulldown-menubar-hbar-activator-open-icon: "expand-up" !default;
 $o-pulldown-menubar-hbar-activator-icon-top-offset: -3px !default;
 $o-pulldown-menubar-hbar-use-logo: yes !default;
 $o-pulldown-menubar-hbar-logo: logo !default;
@@ -140,8 +130,8 @@ $o-statusbar-hbar-height: $o-clickable-target-size * 0.75 !default;
 $o-statusbar-status-height: 10rem !default;
 $o-statusbar-hbar-activator-width: $o-clickable-target-size !default;
 $o-statusbar-hbar-show-label: no !default;
-$o-statusbar-hbar-activator-closed-icon: "chevron-up" !default;
-$o-statusbar-hbar-activator-open-icon: "chevron-down" !default;
+$o-statusbar-hbar-activator-closed-icon: "expand-up" !default;
+$o-statusbar-hbar-activator-open-icon: "expand-down" !default;
 $o-statusbar-hbar-activator-icon-size: 180% !default;
 $o-statusbar-hbar-activator-icon-color: $o-base-text-color !default;
 $o-statusbar-hbar-activator-icon-top-offset: 0.2rem !default;
@@ -177,6 +167,6 @@ $o-multisearch-input-width: 100% !default;
 $o-multisearch-show-label: no !default;
 $o-multisearch-vertical-padding: 0.8rem !default;
 $o-multisearch-horizontal-padding: 2rem !default;
-$o-multisearch-icon: magnify !default;
+$o-multisearch-icon: search !default;
 $o-multisearch-icon-size: 180% !default;
 
